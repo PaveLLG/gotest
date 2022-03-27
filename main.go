@@ -13,4 +13,11 @@ func main() {
 	fmt.Println("My uid", uid)
 	fmt.Println("%t\n", uid)
 
+	var (
+		personName string = "Bob"
+		personAge         = 42
+		personUID  int
+	)
+	fmt.Printf("Name: %s\n Age %d\n UID: %d\n", personName, personAge, personUID)
+
 }
