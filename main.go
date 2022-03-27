@@ -9,4 +9,8 @@ func main() {
 	var age int
 	fmt.Println("My age is:", age)
 
+	var uid = 12345
+	fmt.Println("My uid", uid)
+	fmt.Println("%t\n", uid)
+
 }
